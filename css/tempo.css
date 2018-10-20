@@ -1,0 +1,23 @@
+.contenido{
+  align-items: center;
+  display: flex;
+}
+#secundario{
+  justify-content: space-between;
+  align-items: center;
+}
+#imagen1 .imagen-central{
+  order: 1;
+}
+
+.izquierdo:hover{
+  transform: rotate(10deg);
+  box-shadow: #82c3a6;
+  border: 2px;
+}
+
+.derecho:hover{
+  transform: translate(20px, -5px);
+  box-shadow: #82c3a6;
+  border: 2px;
+}
